@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "complete1",
+    "FileSource": "C:\\Users\\franc\\Documents\\temp\\whileTrueLearn\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config",
+    "FileTarget": "C:\\Users\\franc\\Downloads\\test\\temp\\whileTrueLearn\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config",
+    "State": "ACTIVE",
+    "TotalFiles": 155,
+    "TotalSize": 848813508,
+    "FilesLeft": 140,
+    "SizeLeft": 812307211,
+    "Progression": 10,
+    "Time": "16/12/2021 18:53:11"
+  }
+]

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EasySafe.Model.Backup">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAASAAAAgAAEAQMAAIAADYAIgAAAAAgBAggAAAgAAA=</HashCode>
+      <FileName>Model\Backup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BackupType1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySafe.Model.Log">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="EasySafe.Model.Log.DailyLogData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Log.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAgACgAIAAAAAACQAAAAAAEQAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Log.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LogFormat" />
+      <Property Name="LogState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySafe.Model.LogState">
+    <Position X="15" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="EasySafe.Model.LogState.StateLogData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Log.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgABAAIEIAAAECQAAAAAAAUAAAAABIAAAAA=</HashCode>
+      <FileName>Model\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySafe.Model.Model">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAggACAAAAAAgAAAAAAAAIgAAAAAA=</HashCode>
+      <FileName>Model\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySafe.Model.Translator">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACAAAAAAAAACAAAAAABAAQAAAABAEAAACAAA=</HashCode>
+      <FileName>Model\Translator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Language1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySaveV2.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEhACAAAAAAAAAIAIAAAAGIAAQAwAAEgQAAgAA=</HashCode>
+      <FileName>ViewModel\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.221" Collapsed="true" />
+  </Class>
+  <Class Name="EasySaveV2.Model.AppSettings">
+    <Position X="7" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="EasySaveV2.Model.AppSettings.AppSettingsData">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\AppSettings.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAiAIAAAgAAMACAAEUAAAAAAAACAAAADEEAAA=</HashCode>
+      <FileName>Model\AppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySaveV2.View.CreateBackup" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAQAAAACAAAAAAIAQAAAGAAAEAAAAAAA=</HashCode>
+      <FileName>ViewModel\CreateBackup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySaveV2.View.EditBackup" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAQAAAAAAAAgCAAAAAAIAQAAAEAAAEAAAAAAA=</HashCode>
+      <FileName>ViewModel\EditBackup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySaveV2.View.HomePage" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAARAICAAogAAAAAAAAAQAAAEQAgMAAgAAAA=</HashCode>
+      <FileName>ViewModel\HomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySaveV2.View.Settings" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAAAAAAgAAAAAAAAAACQAAAAAAAEAAAQAAA=</HashCode>
+      <FileName>ViewModel\Settings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="EasySafe.Model.BackupType">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\BackupType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySafe.Model.Error">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAAAAAAACIAAAAAgAAgAAQAAQAAAAAAA=</HashCode>
+      <FileName>Model\Error.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySafe.Model.Language">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Language.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySafe.Model.LogFormat">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACCAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\LogFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySafe.Model.Menu">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggACAGBQAAgAgABAgAIAAAAAAAAQUACIAQABARBgBA=</HashCode>
+      <FileName>Model\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,49 @@
+﻿<Window x:Class="EasySaveV2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySaveV2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid HorizontalAlignment="Center" Width="800">
+        <Menu x:Name="MenuBar" DockPanel.Dock="Top" RenderTransformOrigin="0.5,0.5" Margin="7,0,0,0">
+            <Menu.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Menu.RenderTransform>
+            <MenuItem Header="_File">
+                <MenuItem x:Name="MenuOpenLog" Header="_Open_log" Click="OpenLog" />
+                <MenuItem x:Name="MenuOpenStateLog" Header="_Open_state_log" Click="OpenLogState" />
+                <MenuItem Header="_Settings" Click="LoadSettingsPage" />
+                <MenuItem x:Name="MenuExit" Header="_Exit" Click="ExitApp" />
+            </MenuItem>
+            <MenuItem  Header="_Langue" Height="23">
+                <MenuItem x:Name="FrenchMenu" Header="_French" IsCheckable="True" Click="SetFrench"/>
+                <MenuItem x:Name="EnglishMenu" Header="_English" IsCheckable="True" Click="SetEnglish"/>
+            </MenuItem>
+        </Menu>
+
+
+
+
+        <Grid HorizontalAlignment="Left" Width="200" Margin="0,23,0,0">
+            <Button Height="50" x:Name="CreateBackupButton" Click="LoadCreateBackup" Content="Créer" AutomationProperties.Name="CreateBackupButton" Margin="25,0,25,300"/>
+
+            <Button Height="50" x:Name="ExecuteAllButton" Content="Executer tous" AutomationProperties.Name="ExecuteAllButton" Click="ExecuteAll" Margin="25,0,25,450" />
+            <Button Height="50" x:Name="EditBackupButton" Content="Modifier" AutomationProperties.Name="EditBackupButton" Click="LoadEditBackup" Margin="25,0,25,150"/>
+            <Button  Height="50" x:Name="DeleteBackupButton" Click="DeleteBackupDialog" Content="Delete" AutomationProperties.Name="DeleteBackupButton" Margin="25,0,25,0" RenderTransformOrigin="0.48,0.578"/>
+            <Button  Height="50" x:Name="ExecuteOneBackupButton" Content="Executer one" AutomationProperties.Name="ExecuteOneButton" Click="ExecuteOneButton" Margin="25,150,25,0" />
+            <Button Height="50" Content="Home" AutomationProperties.Name="ExecuteOneButton" Click="HomeButton_click" Margin="25,0,25,600"/>
+            <Button x:Name="PlayBtn" Content="Play" Click="PlayButton_Click" HorizontalAlignment="Left" Margin="16,517,0,0" VerticalAlignment="Top" Height="30" Width="41"/>
+            <Button x:Name="PauseBtn" Content="Pause" Click="PauseButton_Click" HorizontalAlignment="Left" Margin="74,517,0,0" VerticalAlignment="Top" Height="30" Width="45"/>
+            <Button x:Name="StopBtn" Content="Stop" Click="StopButton_Click" HorizontalAlignment="Left" Margin="135,517,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.597" Height="30" Width="40"/>
+        </Grid>
+        <Frame x:Name="Main"  HorizontalAlignment="Left"  Margin="200,-25,0,0" />
+
+    </Grid>
+</Window>

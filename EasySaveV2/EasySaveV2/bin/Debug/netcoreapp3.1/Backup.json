@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "abc",
+    "Source": "D:\\Files\\Documents\\proprietaire",
+    "Target": "D:\\Files\\Documents\\copied",
+    "BackupType": 1,
+    "Active": false,
+    "WaitingToCopyBigFile": false,
+    "BackupThread": null,
+    "TotalFilesToCopy": 0,
+    "TotalFilesSize": 0,
+    "NbFilesLeftToDo": 0,
+    "FilesLeftToDoSize": 0
+  }
+]

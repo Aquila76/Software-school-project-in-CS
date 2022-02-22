@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\tangu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tangu\\.nuget\\packages"
+    ]
+  }
+}
